@@ -1,1 +1,11 @@
-
+user=input("Enter the word: ")
+length=len(user)
+wrd=""
+lowerWord=user.upper()
+for i in range(length -1,-1,-1):
+    wrd=wrd+lowerWord[i]
+if lowerWord==wrd:
+    print("palindrome")
+else:
+    print("Not a palindrome")
+    
