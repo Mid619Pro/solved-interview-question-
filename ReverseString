@@ -9,4 +9,4 @@ print(wrd)
 
 EX:2
 a=input("a= ")
-print(a[-1::-1])
+print(a[::-1])
