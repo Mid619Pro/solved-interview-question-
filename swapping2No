@@ -1,0 +1,7 @@
+EX1:[WITH 3RD VARIABLE]
+a=3
+b=4
+c=b
+b=a
+a=c
+print("a=",a,"b=",b)
