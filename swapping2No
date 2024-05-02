@@ -5,3 +5,9 @@ c=b
 b=a
 a=c
 print("a=",a,"b=",b)
+
+EX2:
+a=3
+b=4
+a,b=b,a
+print(a,b)
