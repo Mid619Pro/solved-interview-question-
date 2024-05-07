@@ -1,0 +1,6 @@
+lists=[]
+user=int(input("How many list items u you what to insert: "))
+for i in range(1,user+1):
+    inputs=input("list"+str(i)+": ")
+    lists.append(inputs)
+print(lists)
