@@ -1,0 +1,8 @@
+i=int(input("Enter the number: "))
+if i%2==0:
+    print(str(i)+" is even")
+elif i%2!=0:
+    print(str(i)+" is Odd")
+else:
+     pass
+        
