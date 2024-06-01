@@ -1,0 +1,7 @@
+javascript:
+
+a=["a","d","r"]
+for( let i of a){
+    let code=i.charCodeAt(0);
+    console.log(code);
+}
