@@ -5,3 +5,10 @@ for( let i of a){
     let code=i.charCodeAt(0);
     console.log(code);
 }
+
+Python:
+     a = ["a", "d", "r"]
+for i in a:
+    code = ord(i)
+    print(code)
+
