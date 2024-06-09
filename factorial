@@ -1,6 +1,20 @@
+LOOPS function
+
 def factorial(n):
     fact=1;
     for i in range(n,0,-1):
         fact=fact*i
     return fact
 print(factorial(7))
+
+-------------------------------------------------------------------------
+
+RECURSIVE function
+
+def factorial_recursive(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial_recursive(n-1)
+
+print(factorial_recursive(5))
