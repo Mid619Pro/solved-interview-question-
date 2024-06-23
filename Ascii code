@@ -7,7 +7,7 @@ for( let i of a){
 }
 
 Python:
-     a = ["a", "d", "r"]
+a = ["a", "d", "r"]
 for i in a:
     code = ord(i)
     print(code)
