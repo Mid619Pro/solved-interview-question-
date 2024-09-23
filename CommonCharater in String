@@ -1,0 +1,23 @@
+def common_characters(str1, str2):
+    set1 = set(str1)
+    set2 = set(str2)
+    
+    common_chars = set1 & set2
+    return set(common_chars)
+string1 = "hello"
+string2 = "world"
+result = common_characters(string1, string2)
+print(result)  
+
+
+--> 2 Method
+def twoString(s1,s2):
+    l=[]
+    for s in s1:
+        if s in s2 and s not in l:
+            l.append(s)
+
+    return l
+String1=input('Enter The Str1: ')
+String2=input('Enter The Str2: ')
+print(twoString(String1,String2))
