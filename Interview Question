@@ -4,4 +4,5 @@ that is easy to share and understand within the Python community.
 3.set-> when u converting to 'SET' it eliminates dublicate characters in strings
 4.sourcecode(.py) -> byteCode(.pyc) ->  (PVM), which executes it line-by-line
 5.Private Attribute-> __name(double underscore),Protected Attribute->_name(single underscore)
-6.Python is case sensituve language
+6.Python is case-sensitive language
+7.Pandas is an open-source tools for data analysis and manipulation.
