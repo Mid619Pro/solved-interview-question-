@@ -13,4 +13,5 @@ that is easy to share and understand within the Python community.
     -> Repeats a block of code as long as a given condition is true.
     -> Number of iterations is Unknown and loop should continue until
        a certain condition changes.
+10. Indentation is cruical.Python Interpreter uses indentation to execute the flow of code
 
