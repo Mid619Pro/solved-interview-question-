@@ -6,3 +6,11 @@ that is easy to share and understand within the Python community.
 5.Private Attribute-> __name(double underscore),Protected Attribute->_name(single underscore)
 6.Python is case-sensitive language
 7.Pandas is an open-source tools for data analysis and manipulation.
+8.FOR-LOOP:
+   -> Used to iterate over a sequence (like a list, tuple, string, or range)
+   -> Number of iterations is known 
+9.WHILE-LOOP:
+    -> Repeats a block of code as long as a given condition is true.
+    -> Number of iterations is Unknown and loop should continue until
+       a certain condition changes.
+
