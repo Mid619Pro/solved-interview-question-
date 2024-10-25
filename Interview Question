@@ -3,4 +3,4 @@ that is easy to share and understand within the Python community.
 2.pip is the package installer for Python, main purpose is to manage Python packages.
 3.set-> when u converting to 'SET' it eliminates dublicate characters in strings
 4.sourcecode(.py) -> byteCode(.pyc) ->  (PVM), which executes it line-by-line
-
+5.Private Attribute-> __name(double underscore),Protected Attribute->_name(single underscore)
