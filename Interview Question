@@ -1,17 +1,39 @@
 1.PEP(python enchancement proposal) 8 helps developers write clean, readable and maintainable code 
 that is easy to share and understand within the Python community.
+
 2.pip is the package installer for Python, main purpose is to manage Python packages.
+
 3.set-> when u converting to 'SET' it eliminates dublicate characters in strings
+
 4.sourcecode(.py) -> byteCode(.pyc) ->  (PVM), which executes it line-by-line
+
 5.Private Attribute-> __name(double underscore),Protected Attribute->_name(single underscore)
+
 6.Python is case-sensitive language
+
 7.Pandas is an open-source tools for data analysis and manipulation.
+
 8.FOR-LOOP:
    -> Used to iterate over a sequence (like a list, tuple, string, or range)
    -> Number of iterations is known 
+
 9.WHILE-LOOP:
     -> Repeats a block of code as long as a given condition is true.
     -> Number of iterations is Unknown and loop should continue until
        a certain condition changes.
+
 10. Indentation is cruical.Python Interpreter uses indentation to execute the flow of code
+
 11.self-> used to represent instance of a class and is essential for accessing instance variables and methods.
+
+12.GARBAGE COLLECTION:
+      -> Reference Counting :
+             Each time a reference is created, the count goes up.
+             Each time a reference is removed, the count goes down.
+             When the count reaches zero, the object is eligible for garbage collection.
+      -> Cycle Detection :
+             sometimes in cyclic references they not reaches Zero.In that scenario
+              garbage collector detect that and remove it
+  
+
+   
