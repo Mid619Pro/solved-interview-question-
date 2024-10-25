@@ -14,4 +14,4 @@ that is easy to share and understand within the Python community.
     -> Number of iterations is Unknown and loop should continue until
        a certain condition changes.
 10. Indentation is cruical.Python Interpreter uses indentation to execute the flow of code
-
+11.self-> used to represent instance of a class and is essential for accessing instance variables and methods.
