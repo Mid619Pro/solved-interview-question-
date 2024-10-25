@@ -35,5 +35,17 @@ that is easy to share and understand within the Python community.
              sometimes in cyclic references they not reaches Zero.In that scenario
               garbage collector detect that and remove it
   
+13.Python supports Multiple inheritance
 
+14. Techniques for memory management, including automatic memory allocation, 
+    reference counting, garbage collection, and memory pools.
+
+15.  Python manages memory using a private heap space for objects and datastructure.
+     programmer cant directly access this private heap and managed by python interpreter.
+
+16. How to delete a file using python?
+     -> os.remove()
+     -> os.unlink()
+
+17.sort() and sorted() function uses Timsort algorithm
    
