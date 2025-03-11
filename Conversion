@@ -1,0 +1,6 @@
+String to list:
+----------------------
+s="midhuun"
+l=list(s)
+print(l)
+
