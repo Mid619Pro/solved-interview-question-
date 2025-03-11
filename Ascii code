@@ -7,8 +7,14 @@ for( let i of a){
 }
 
 Python:
+
 a = ["a", "d", "r"]
 for i in a:
     code = ord(i)
-    print(code)
+    print(code)  /// 97 100 114                                                                           
+
+a = [97,99,100]
+for i in a:
+    code = chr(i)
+    print(code)   /// a c d
 
