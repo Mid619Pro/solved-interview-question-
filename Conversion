@@ -1,6 +1,24 @@
-String to list:
+string into letters
 ----------------------
 s="midhuun"
 l=list(s)
-print(l)
+print(l)  /// ['m', 'i', 'd', 'h', 'u', 'u', 'n']
+_________________________________________________________________________
+SENTENCES INTO WORDS
 
+a="midhun is the first"
+l=a.split()
+print(l) // ['midhun', 'is', 'the', 'first']
+____________________________________________________________________________
+List to DICTIONARY
+
+l1=[1,2,3]
+l2=["apple",'grape','onion']
+s=dict(zip(l1,l2))
+print(s)
+____________________________________________________________________________________
+DICTIONARY TO TUPLE
+
+x={1:"apple",2:"orange",3:"grape"}
+print(x.items())
+______________________________________________________________________________
