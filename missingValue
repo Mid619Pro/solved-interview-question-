@@ -1,0 +1,7 @@
+One Element:
+
+arr1=[1,2,3,4,6,7]
+n=arr1[-1]
+sum1=sum(arr1)
+total=n*(n+1)//2
+print(total-sum1)
