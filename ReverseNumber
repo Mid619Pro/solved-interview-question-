@@ -6,4 +6,6 @@ for i in range(length -1,-1,-1):
      num=num+strInt[i]
 result=int(num)
 print(result)
+
+
     
