@@ -18,3 +18,11 @@ One Missing Element in the array:
    missing_number = xor_full ^ xor_arr
    print(missing_number) 
 ____________________________________________________________________________________________
+Missing integer in the array:
+
+a = [1, 3, 4, 5, 7, 8, 9]
+
+full_range=set(range(min(a),max(a)))
+xor1=full_range - set(a)
+print(xor1)
+_________________________________________________________________________________________
