@@ -1,0 +1,15 @@
+EX:1
+
+user=input("Enter the word: ")
+length=len(user)
+wrd=""
+upperWord=user.upper()
+for i in range(length -1,-1,-1):
+    wrd=wrd+upperWord[i]
+print(wrd)
+
+EX:2
+a=input("a= ")
+print(a[::-1])
+
+    
