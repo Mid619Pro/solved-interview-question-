@@ -1,0 +1,9 @@
+FIND OUT NON VOWELS CHARACTER IN THE STRING:
+
+s=input("string: ").lower()
+arr=['a', 'e', 'i', 'o', 'u']
+for a in s:
+    if a not in arr:
+        print(a)
+    else:
+        pass
