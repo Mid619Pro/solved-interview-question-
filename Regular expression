@@ -1,0 +1,3 @@
+import re
+s = "Hello! 123, World!! #$$%"
+cleaned = re.sub(r'[^a-zA-Z0-9]', '', s)
