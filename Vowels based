@@ -7,3 +7,15 @@ for a in s:
         print(a)
     else:
         pass
+_______________________________________________________________________________
+AMAZING SUBSTRING:
+
+def Ama_Sub(str1):
+    vowels="aeiouAEIOU"
+    l=len(str1)
+    count=0
+    for i,char in enumerate(str1):
+         if char in vowels:
+            count+=l-i
+    print(count)
+Ama_Sub("hello")
